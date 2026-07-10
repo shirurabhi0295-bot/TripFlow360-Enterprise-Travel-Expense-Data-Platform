@@ -1,0 +1,28 @@
+USE TripFlow360DB;
+GO
+
+CREATE TABLE Master.Location
+(
+    LocationID INT IDENTITY(1,1) PRIMARY KEY,
+
+    LocationCode NVARCHAR(20) NOT NULL UNIQUE,
+
+    LocationName NVARCHAR(100) NOT NULL,
+
+    City NVARCHAR(100) NOT NULL,
+
+    State NVARCHAR(100) NOT NULL,
+
+    Country NVARCHAR(100) NOT NULL,
+
+    IsActive BIT NOT NULL DEFAULT 1,
+
+    CreatedDate DATETIME2 NOT NULL DEFAULT GETDATE(),
+
+    CreatedBy NVARCHAR(100) NOT NULL,
+
+    ModifiedDate DATETIME2 NULL,
+
+    ModifiedBy NVARCHAR(100) NULL
+);
+GO
