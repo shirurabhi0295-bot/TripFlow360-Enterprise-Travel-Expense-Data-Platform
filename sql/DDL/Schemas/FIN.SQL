@@ -1,0 +1,5 @@
+USE TripFlow360DB;
+GO
+
+CREATE SCHEMA Finance;
+GO
