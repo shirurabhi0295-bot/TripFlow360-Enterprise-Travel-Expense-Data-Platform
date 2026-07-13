@@ -1,7 +1,7 @@
 USE TripFlow360DB;
 GO
 
-CREATE TABLE Reference.Department
+CREATE TABLE Master.Department
 (
     DepartmentID INT IDENTITY(1,1) PRIMARY KEY,
 

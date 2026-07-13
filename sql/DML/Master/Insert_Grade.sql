@@ -1,0 +1,28 @@
+USE TripFlow360DB;
+GO
+
+INSERT INTO Master.Grade
+(
+    GradeCode,
+    GradeName,
+    TravelPolicyID,
+    GradeDescription,
+    DisplayOrder,
+    IsActive,
+    CreatedBy,
+    ModifiedDate,
+    ModifiedBy
+)
+VALUES
+('G1', 'Graduate Trainee',      1, 'Entry-level employees under training.',                          1, 1, 'System', NULL, NULL),
+('G2', 'Associate',             1, 'Junior associates and analysts.',                                2, 1, 'System', NULL, NULL),
+('G3', 'Senior Associate',      2, 'Experienced associates handling critical tasks.',                3, 1, 'System', NULL, NULL),
+('G4', 'Lead',                  2, 'Team leads responsible for small teams.',                         4, 1, 'System', NULL, NULL),
+('G5', 'Assistant Manager',     3, 'Assistant managers managing business operations.',               5, 1, 'System', NULL, NULL),
+('G6', 'Manager',               3, 'Department managers responsible for teams.',                     6, 1, 'System', NULL, NULL),
+('G7', 'Senior Manager',        4, 'Senior managers overseeing multiple teams.',                     7, 1, 'System', NULL, NULL),
+('G8', 'Associate Director',    4, 'Associate directors managing departments.',                      8, 1, 'System', NULL, NULL),
+('G9', 'Director',              5, 'Directors responsible for business units.',                      9, 1, 'System', NULL, NULL),
+('G10','Vice President',        5, 'Executive leadership responsible for strategic decisions.',     10, 1, 'System', NULL, NULL);
+GO
+

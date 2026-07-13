@@ -24,5 +24,6 @@ CREATE TABLE Master.Grade
     ModifiedDate DATETIME2 NULL,
 
     ModifiedBy NVARCHAR(100) NULL
+    
 );
 GO
