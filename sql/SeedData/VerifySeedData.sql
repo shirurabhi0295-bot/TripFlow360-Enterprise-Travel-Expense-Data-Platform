@@ -1,6 +1,6 @@
 USE TripFlow360DB;
 GO
-
+python -c "import pandas; import faker; print('Environment Ready')"
 PRINT '===== MASTER DATA VERIFICATION =====';
 
 SELECT 'Department' AS TableName, COUNT(*) AS RecordCount
