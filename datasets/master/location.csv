@@ -1,0 +1,11 @@
+LocationCode,LocationName,City,State,Country,IsActive,CreatedBy,ModifiedDate,ModifiedBy
+BLR,Bangalore Office,Bengaluru,Karnataka,India,1,System,,
+HYD,Hyderabad Office,Hyderabad,Telangana,India,1,System,,
+CHE,Chennai Office,Chennai,Tamil Nadu,India,1,System,,
+MUM,Mumbai Office,Mumbai,Maharashtra,India,1,System,,
+DEL,Delhi Office,New Delhi,Delhi,India,1,System,,
+PUN,Pune Office,Pune,Maharashtra,India,1,System,,
+KOL,Kolkata Office,Kolkata,West Bengal,India,1,System,,
+DXB,Dubai Office,Dubai,Dubai,United Arab Emirates,1,System,,
+LON,London Office,London,England,United Kingdom,1,System,,
+NYC,New York Office,New York,New York,United States,1,System,,

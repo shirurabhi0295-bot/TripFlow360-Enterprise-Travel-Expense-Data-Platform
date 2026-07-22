@@ -1,0 +1,11 @@
+DepartmentCode,DepartmentName,DepartmentType,DepartmentDescription,CreatedBy,ModifiedDate,ModifiedBy
+HR,Human Resources,Support,"Manages recruitment, payroll and employee relations.",System,,System
+FIN,Finance,Support,"Handles budgeting, accounting and financial reporting.",System,,System
+IT,Information Technology,Core,Responsible for IT infrastructure and software development.,System,,System
+SAL,Sales,Business,Manages client acquisition and revenue generation.,System,,System
+MKT,Marketing,Business,"Handles branding, campaigns and market research.",System,,System
+OPS,Operations,Core,Oversees day-to-day business operations.,System,,System
+PRC,Procurement,Support,Manages vendor procurement and purchasing.,System,,System
+LEG,Legal,Support,Handles legal compliance and contracts.,System,,System
+ADM,Administration,Support,Responsible for office administration and facilities.,System,,System
+CS,Customer Support,Business,Provides customer support and issue resolution.,System,,System
